@@ -1,0 +1,20 @@
+.icon {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    color: white;
+}
+
+.icon-text{
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); /* to compensate own width and height */
+}
+
+.boxshadow{
+    box-shadow: 10px 10px 5px grey;
+}

@@ -6,6 +6,11 @@ import Icon from './components/Dashboard/Menu.jsx';
 import APIHome from './components/API/Home.jsx';
 import UDEHome from './components/UDE/Home.jsx';
 import ADFHome from './components/ADF/Home.jsx';
+import CICDHome from './components/CICD/Home.jsx';
+import UIModelHome from './components/UIModel/Home.jsx';
+import WeaveOnHome from './components/WeaveOn/Home.jsx';
+import HatchOnHome from './components/HatchOn/Home.jsx';
+import ModestaHome from './components/Modesta/Home.jsx';
 
 const dash = (
   <Grid>
@@ -22,16 +27,22 @@ const dash = (
         </div>
       </Col>
       <Col xs={6} md={4}>
-        <Icon displayText="CICD" />
+        <div className="icon boxshadow">
+          <Link to="/cicd" className="icon-text">CI/CD</Link>
+        </div>
       </Col>
     </Row>
     <br/>
     <Row className="show-grid">
       <Col xs={6} md={4}>
-        <Icon displayText="UI Model" />
+        <div className="icon boxshadow">
+          <Link to="/ui-model" className="icon-text">UI Model</Link>
+        </div>
       </Col>
       <Col xs={6} md={4}>
-        <Icon displayText="Weave On" />
+        <div className="icon boxshadow">
+          <Link to="/weave-on" className="icon-text">Weave On</Link>
+        </div>
       </Col>
       <Col xs={6} md={4}>
         <div className="icon boxshadow">
@@ -42,10 +53,14 @@ const dash = (
     <br/>
     <Row className="show-grid">
       <Col xs={6} md={4}>
-        <Icon displayText="Hach On" />
+        <div className="icon boxshadow">
+          <Link to="/hatch-on" className="icon-text">Hatch On</Link>
+        </div>
       </Col>
       <Col xs={6} md={4}>
-        <Icon displayText="Modesta" />
+        <div className="icon boxshadow">
+          <Link to="/modesta" className="icon-text">Modesta</Link>
+        </div>
       </Col>
       <Col xs={6} md={4}>
       </Col>
@@ -83,6 +98,11 @@ ReactDOM.render(
     <Route path="/ude" component={UDEHome}/>
     <Route path="/adf" component={ADFHome}/>
     <Route path="/api" component={APIHome}/>
+    <Route path="/cicd" component={CICDHome}/>
+    <Route path="/ui-model" component={UIModelHome}/>
+    <Route path="/weave-on" component={WeaveOnHome}/>
+    <Route path="/hatch-on" component={HatchOnHome}/>
+    <Route path="/modesta" component={ModestaHome}/>
   </Router>
 ),
   // <Router history={hashHistory}>

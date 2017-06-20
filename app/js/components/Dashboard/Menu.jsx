@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import styles from '../../../styles/common.css';
 
 export default class Icon extends Component {
   constructor(props) {
@@ -10,7 +9,7 @@ export default class Icon extends Component {
     return (
       <div >
       	<div className="icon boxshadow">
-      		<p className="icon-text">{this.props.displayText}</p>
+      		<a href={this.props.url} className="icon-text">{this.props.displayText}</a>
       	</div>
       </div>
     );

@@ -18,3 +18,8 @@
 .boxshadow{
     box-shadow: 10px 10px 5px grey;
 }
+
+.verticalLine {
+    height: 100%;
+    border-left: thick solid #ff0000;
+}

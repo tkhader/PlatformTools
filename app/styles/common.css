@@ -2,8 +2,17 @@
     position: relative;
     width: 100px;
     height: 100px;
-    background-color: coral;
+    background-color: #176db2;
     color: white;
+}
+
+.icon:hover {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: #0078d7;
+    color: white;
+    box-shadow: 3px 3px 2px grey;
 }
 
 .icon-text{
@@ -11,12 +20,15 @@
     position: absolute;
     top: 50%;
     left: 50%;
+    color: white;
     margin-right: -50%;
     transform: translate(-50%, -50%); /* to compensate own width and height */
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .boxshadow{
-    box-shadow: 10px 10px 5px grey;
+    /*box-shadow: 10px 10px 5px grey;*/
 }
 
 .verticalLine {

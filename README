@@ -1,0 +1,11 @@
+Install the dependencies by,
+
+> npm install
+
+from project root directory.
+
+Then to run the webpack server,
+
+> npm run dev
+
+and access the application at http://localhost:8080/

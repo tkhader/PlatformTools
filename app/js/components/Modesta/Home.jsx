@@ -8,6 +8,9 @@ export default class ModestaHome extends Component {
 
   render() {
     return (
+      <div>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css" />
+      <link rel="stylesheet" href="app/styles/common.css" />
         <div className="container">
         <div>
           <nav className="navbar navbar-default">
@@ -68,6 +71,7 @@ export default class ModestaHome extends Component {
           </div>
         </Panel>
         </div>
+      </div>
     );
   }
 }

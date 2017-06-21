@@ -8,6 +8,9 @@ export default class CICDHome extends Component {
 
   render() {
     return (
+      <div>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css" />
+      <link rel="stylesheet" href="app/styles/common.css" />
         <div className="container">
         <div>
           <nav className="navbar navbar-default">
@@ -27,7 +30,7 @@ export default class CICDHome extends Component {
         <Panel header="CICD">
         <div className="container">
           <ul className="nav nav-pills nav-stacked col-md-2">
-            <li className="active"><a href="#tab_a" data-toggle="pill">CICD - Overview</a></li>
+            <li className="active"><a href="#tab_a" data-toggle="pill">DEF(CI/CD) - Overview</a></li>
             <li><a href="#tab_b" data-toggle="pill">Scope & Roadmap</a></li>
             <li><a href="#tab_c" data-toggle="pill">Change Log with Version</a></li>
             <li><a href="#tab_d" data-toggle="pill">Testbeds</a></li>
@@ -68,6 +71,7 @@ export default class CICDHome extends Component {
           </div>
         </Panel>
         </div>
+      </div>
     );
   }
 }

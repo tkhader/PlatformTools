@@ -41,15 +41,17 @@ export default class WeaveOnHome extends Component {
           <div className="tab-content col-md-10">
                   <div className="tab-pane active" id="tab_a">
                        <h4>Overview</h4>
-                      <p>Overview</p>
+                      <p>Removes the tedious plumbing and configuration process by generating boiler plate server stub for multiple programming language. The code generated from WEAVON will be complete in REST Service and DAO layers.The library will be packaged as a maven/gradle project that can be easily added as a module to the parent project, Allowing Faster deployment and better adoption.</p>
                   </div>
                   <div className="tab-pane" id="tab_b">
                        <h4>Scope & Roadmap</h4>
-                      <p>Scope & Roadmap</p>
+                      <p></p>
                   </div>
                   <div className="tab-pane" id="tab_c">
                        <h4>Change Log with Version</h4>
-                      <p>Change Log with Version</p>
+                      <p>1.Authentication and Authorization Layer, defaulted to ALtimetrik SSO Service</p>
+            <p>2. VAlidation stub hooked for primary validation</p>
+            <p>3.ORM Provider implementation based selected ORM Framework.</p>
                   </div>
                   <div className="tab-pane" id="tab_d">
                        <h4>Testbeds</h4>
@@ -57,15 +59,16 @@ export default class WeaveOnHome extends Component {
                   </div>
                   <div className="tab-pane" id="tab_e">
                        <h4>Server Details</h4>
-                      <p>Server Details</p>
+                      <p><a className="anchroUnderLine" target="_blank" href="http://192.168.91.56:8080/weavon/#/">Server details</a></p>
                   </div>
                   <div className="tab-pane" id="tab_f">
                        <h4>Demo</h4>
-                      <p>Demo</p>
+                      <p>
+            <a className="anchroUnderLine" target="_blank" href="https://o365altimetrik-my.sharepoint.com/personal/vnithianandam_altimetrik_com/_layouts/15/guestaccess.aspx?guestaccesstoken=M7DHrr%2ftivgiVE%2b3JH0TVVSfXC%2fsPmr9ocqpDL94cD4%3d&docid=2_08b5619ab28aa4f6f918ae6fd77d07015&rev=1">Demo</a></p>
                   </div>
                   <div className="tab-pane" id="tab_g">
                        <h4>Repo Details</h4>
-                      <p>Repo Details</p>
+                      <p>ssh://phvcs@platformworks.altimetrik.com:2222/diffusion/70/weavon-nxt.git</p>
                   </div>
           </div>
           </div>

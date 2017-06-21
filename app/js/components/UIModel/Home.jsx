@@ -41,31 +41,36 @@ export default class UIModelHome extends Component {
           <div className="tab-content col-md-10">
                   <div className="tab-pane active" id="tab_a">
                        <h4>Overview</h4>
-                      <p>Overview</p>
+                      <p>Quick accelerator for UI traditional developer to get the REST API weaved on to the UI. Generated the complete UI framework with the Swagger Json input/ a REST API spec. User will be able to provide the rich UI face for any REST based APIs. Based on the Swagger spec json that been used by the Weavon application, the Swagger APIs are been used for the UI modeling with the UI specific descriptions. UI Modeling will hold each respective details and then the complete json that would represent the UI Model. Once the API is been parsed, just the API need to be added to the Menu Item so that the UI will be rendered according to the representation.</p>
                   </div>
                   <div className="tab-pane" id="tab_b">
                        <h4>Scope & Roadmap</h4>
-                      <p>Scope & Roadmap</p>
+                      <p>1. CURD functionlities for the exisiting available REST API.</p>
+            <p>2. React JS + Material CSS</p>
+            <p>3. Angular JS + Bootstrap CSS</p>
                   </div>
                   <div className="tab-pane" id="tab_c">
                        <h4>Change Log with Version</h4>
-                      <p>Change Log with Version</p>
+                      <p>1. Adding style support for field components.</p>
+            <p>2. Updating Handlebars template</p>
                   </div>
                   <div className="tab-pane" id="tab_d">
                        <h4>Testbeds</h4>
-                      <p>Testbeds</p>
+                      <p></p>
                   </div>
                   <div className="tab-pane" id="tab_e">
                        <h4>Server Details</h4>
-                      <p>Server Details</p>
+                      <p></p>
                   </div>
                   <div className="tab-pane" id="tab_f">
                        <h4>Demo</h4>
-                      <p>Demo</p>
+                      <p>
+           <a className="anchroUnderLine" target="_blank" href=" https://o365altimetrik-my.sharepoint.com/personal/dkumarasamy_altimetrik_com/_layouts/15/guestaccess.aspx?guestaccesstoken=DfKa6%2fcLHByGsUVz36ymmkfUn0Di9F8BR%2fg61PZppNI%3d&docid=2_19381c242fc2b4d6ab4c087a447b6a30d&rev=1" >Demo</a>
+           </p>
                   </div>
                   <div className="tab-pane" id="tab_g">
                        <h4>Repo Details</h4>
-                      <p>Repo Details</p>
+                      <p>ssh://phvcs@platformworks.altimetrik.com:2222/diffusion/74/uimodeling.git</p>
                   </div>
           </div>
           </div>

@@ -41,31 +41,34 @@ export default class UDEHome extends Component {
           <div className="tab-content col-md-10">
                   <div className="tab-pane active" id="tab_a">
                        <h4>Overview</h4>
-                      <p>Overview</p>
+                      <p>Unified Development Environment - A Platform agnostic and framework agnostic IDE for developing mobile and web applications completely within the browser using a Component based approch.</p>
                   </div>
                   <div className="tab-pane" id="tab_b">
                        <h4>Scope & Roadmap</h4>
-                      <p>Scope & Roadmap</p>
+                      <p></p>
                   </div>
                   <div className="tab-pane" id="tab_c">
                        <h4>Change Log with Version</h4>
-                      <p>Change Log with Version</p>
+                      <p>1. Added CSS Editor and Atrribute Editor </p>
+            <p>2. Added support for Multiple device simulator.</p>
                   </div>
                   <div className="tab-pane" id="tab_d">
                        <h4>Testbeds</h4>
-                      <p>Testbeds</p>
+                      <p></p>
                   </div>
                   <div className="tab-pane" id="tab_e">
                        <h4>Server Details</h4>
-                      <p>Server Details</p>
+                      <p><a className="anchroUnderLine" href="http://192.168.91.52:8085" target="_blank">Demo</a></p>
                   </div>
                   <div className="tab-pane" id="tab_f">
                        <h4>Demo</h4>
-                      <p>Demo</p>
+                      <p>
+           <a className="anchroUnderLine" href=" https://o365altimetrik-my.sharepoint.com/personal/hnarayanan_altimetrik_com/_layouts/15/guestaccess.aspx?guestaccesstoken=sInEOiGg%2f5%2fkFAVFfAsGNDpV4P8Pt56R6%2b%2fbC82idqU%3d&docid=2_0069696a0b1f24defba839e9e3a0dae2e&rev=1" target="_blank">Demo</a>
+           </p>
                   </div>
                   <div className="tab-pane" id="tab_g">
                        <h4>Repo Details</h4>
-                      <p>Repo Details</p>
+                      <p>ssh://phvcs@platformworks.altimetrik.com:2222/source/ude.git</p>
                   </div>
           </div>
           </div>

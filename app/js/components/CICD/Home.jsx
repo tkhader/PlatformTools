@@ -41,15 +41,16 @@ export default class CICDHome extends Component {
           <div className="tab-content col-md-10">
                   <div className="tab-pane active" id="tab_a">
                        <h4>Overview</h4>
-                      <p>Overview</p>
+                      <p>Developer Enablement Framework is a platform for automating Continous Integration and Continous Deployment for any existing project or for a brand new project. This platform also provides the Virtual Machine provisioning and deployment automation to various cloud vendors like Pivotal Cloud Foundry, AWS etc.</p>
                   </div>
                   <div className="tab-pane" id="tab_b">
                        <h4>Scope & Roadmap</h4>
-                      <p>Scope & Roadmap</p>
+                      <p>Details provided in the Excel attached.</p>
                   </div>
                   <div className="tab-pane" id="tab_c">
                        <h4>Change Log with Version</h4>
-                      <p>Change Log with Version</p>
+                      <p>1. Added Concourse Integration </p>
+            <p>2. Added Jenkins integration.</p>
                   </div>
                   <div className="tab-pane" id="tab_d">
                        <h4>Testbeds</h4>
@@ -57,15 +58,15 @@ export default class CICDHome extends Component {
                   </div>
                   <div className="tab-pane" id="tab_e">
                        <h4>Server Details</h4>
-                      <p>Server Details</p>
+                      <p><a className="anchroUnderLine" target="_blank"  href="http://192.168.115.155">Server Details</a></p>
                   </div>
                   <div className="tab-pane" id="tab_f">
                        <h4>Demo</h4>
-                      <p>Demo</p>
+                      <p><a className="anchroUnderLine" target="_blank"  href="https://o365altimetrik.sharepoint.com/sites/CloudIntegrate/DEF/Forms/AllItems.aspx" >Demo</a></p>
                   </div>
                   <div className="tab-pane" id="tab_g">
                        <h4>Repo Details</h4>
-                      <p>Repo Details</p>
+                      <p>ssh://phvcs@platformworks.altimetrik.com:2222/source/DEF2.0.git</p>
                   </div>
           </div>
           </div>
